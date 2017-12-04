@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Teledetección con QGIS</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown id="intro">
+					<textarea data-template>
+						### Teledetección con QGIS
+						#### GeoInquietos Madrid
+
+						<p>[@ramiroaznar](https://twitter.com/ramiroaznar)<br>
+						CARTO, 4 de diciembre de 2017</p>
+						<img src="img/geoinqmad.png" class="left">
+						<img src="img/qgis.png" class="right">
+					</textarea>
+				</section>
+				<section data-markdown id="geoinq">
+					<textarea data-template>
+						### [GeoInquietos](http://geoinquietos.org/)
+						<p>Grupos informales de apasionados por la geografía y las tecnologías OS<br>
+						Dispersos por España y Latinoamérica</p>
+
+						#### [GeoInquietos Madrid](http://geoinquietos.org/grupos/madrid/)
+						<p>
+							[Lista de correo](https://lists.osgeo.org/mailman/listinfo/madrid)<br>
+							[Meetup](https://www.meetup.com/es-ES/Geoinquietos-MAD/)<br>
+							[Canal de Telegram](https://telegram.me/geoinquietosmad)
+						</p>
+						<img src="img/geoinq.png">
+					</textarea>
+				</section>
+				<section data-markdown id="activities">
+					<textarea data-template>
+						### Últimas actividades
+						<p>
+							<ul>
+							  <li>¡Geobirras!</li>
+							  <li>**Programación GIS**: webmapping, R, Python...</li>
+							  <li>**Cartógrafos**: Mamata Akella, Erik Scoffier, José A. Rodríguez...</li>
+							  <li>Mapatones, mapping parties, talleres de QGIS y CARTO BUILDER...</li>
+							</ul>
+						</p>
+					</textarea>
+				</section>
+				<section data-markdown id="speaker">
+					<textarea data-template>
+						### Teledetección con QGIS
+						#### Antonio Bolinches
+						<p>
+							<ul>
+							  <li>Investigador en la Universidad Complutense,</li>
+							  <li>y el Observatorio del Agua de la Fundación Botín.</li>
+							</ul>
+						</p>
+						<img src="img/antonio.jpg">
+					</textarea>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

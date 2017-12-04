@@ -1,0 +1,53 @@
+/* Images */
+
+#intro img {
+	width: 120px;
+	height: auto;
+	position: absolute;
+	top: 90%;
+	border: none;
+	box-shadow: none;
+}
+.left {
+	left: 50.5%;
+}
+.right {
+	right: 50.5%;
+	width: 190px !important;
+	height: auto;
+	top: 85% !important;
+}
+
+#geoinq img {
+	width: 220px;
+	height: auto;
+	position: absolute;
+	top: 105%;
+	border: none;
+	box-shadow: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#speaker img {
+	width: 220px;
+	height: auto;
+	position: absolute;
+	top: 120%;
+	border: none;
+	box-shadow: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Paragraphs */
+
+.reveal p {
+  font-size: 25px;
+}
+
+.reveal ul li {
+	font-size: 25px;
+}
